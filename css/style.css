@@ -1,0 +1,240 @@
+
+
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none;
+    /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: .05rem solid #fff;
+}
+/* html,
+body {
+    height: 100%;
+} */
+
+
+
+.cover-container {
+    max-width: 50em;
+    max-height: 50em;
+}
+
+
+
+
+.masthead-brand {
+    margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link+.nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+    .masthead-brand {
+        float: left;
+    }
+    .nav-masthead {
+        float: right;
+    }
+}
+
+
+.cover {
+    padding: 0 1.5rem;
+}
+
+.cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+}
+
+
+
+
+.mastfoot {
+    color: rgba(255, 255, 255, .5);
+}
+
+.social-icons {
+    color: rgba(255, 255, 255, .5);
+    margin-bottom: 90px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.button-container {
+    text-align: center;
+    /* padding-left: 11em; */
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.btn-round {
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: 0px 0px 2px #888;
+    -webkit-box-shadow: 0px 0px 2px #888;
+    box-shadow: 0px 0px 2px #888;
+}
+
+#about {
+    display: inline;
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    background-color: #fff;
+    height: 100%;
+}
+
+.img-fluid {
+    height: 200px;
+    min-width: 250px;
+}
+
+ html
+        {
+        scroll-behavior: smooth;
+        }
+        .banner {
+        background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.3)),url('../img/arseny-togulev-MECKPoKJYjM-unsplash.png') center no-repeat;
+        min-width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+        }
+        p{
+        text-align: justify;
+        font-size: 18px;
+        }
+        .img-fluid{
+        width: 100%;
+        height: 300px;
+        }
+        .cover-heading {
+        /* font-family: 'Signika', sans-serif; */
+        font-family: 'Acme', sans-serif;
+        position: relative;
+        font-size: 100px;
+        text-shadow: 0 1px 4px #000;
+        }
+        .btn-icon{
+        background: #fff;
+        }
+        .button-container {
+        flex-direction: row;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        padding-left: unset;
+        padding: 10px;
+        }
+        .banner-p{
+        text-align: center;
+        font-size: 18px;
+        text-shadow: 0 1px 4px #000;
+        }
+
+         .btn-lg{
+            margin: 50px 0;
+        }
+        .head{
+            padding: 30px 90px;
+        }
+        .cover-container{
+            padding: 40px 0;
+        }
+       @media screen and (max-width: 780px){
+        .cover-heading {
+        font-size: 55px;
+        padding: 0;
+        margin-top: 20px;
+        }
+        .cover-container {
+        padding: 30px 0;
+        margin: 0;
+
+        }
+         .button-container{
+            margin-top: -20px;
+        }
+        .masthead-brand{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        }
+        .btn-lg{
+        font-size: 15px;
+        margin: 25px 0;
+        }
+        .head{
+            padding: 20px 70px;
+        }
+        }
+
+        @media screen and (max-width: 510px){
+        .cover-heading {
+            font-size: 45px;
+            margin: 20px 0;
+        }
+        .banner-p{
+            font-size: 16px;
+
+        }
+        .btn-lg{
+            font-size: 12px;
+             margin: 6px 0;
+        }
+        .btn-icon{
+            width: 33px;
+            height: 33px;
+            font-size: 13px;
+            line-height: -1px;
+        }
+        .button-container a{
+            margin: 0 5px 0 5px;
+        }
+        .head{
+            padding: 20px 0 ;
+        }
+        .cover-container{
+            padding: 25px 0 ;
+        }
+        .banner{
+            height: 95vh;
+        }
+        }
